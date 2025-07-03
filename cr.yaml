@@ -1,0 +1,6 @@
+owner: DaveW-STFC
+git-repo: helm-charts
+index-path: index.yaml
+charts-dir: charts
+skip-existing: true
+release-name-template: "{{ .Name }}-{{ .Version }}"
